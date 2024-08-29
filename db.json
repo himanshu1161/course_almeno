@@ -1,0 +1,349 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "/images/1.png",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Introduction to Angular",
+      "instructor": "Emily Clark",
+      "description": "Get started with Angular for web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "/images/2.png",
+      "duration": "10 weeks",
+      "schedule": "Wednesdays and Fridays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Angular",
+          "content": "Overview of Angular and setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First Angular App",
+          "content": "Creating a basic web application using Angular components."
+        }
+      ],
+      "students": [
+        {
+          "id": 104,
+          "name": "Diana Prince",
+          "email": "diana@example.com"
+        },
+        {
+          "id": 105,
+          "name": "Bruce Wayne",
+          "email": "bruce@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Advanced React Native",
+      "instructor": "Jane Smith",
+      "description": "Deep dive into advanced concepts of React Native.",
+      "enrollmentStatus": "In Progress",
+      "thumbnail": "/images/1.png",
+      "duration": "6 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["Introduction to React Native"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Advanced Components",
+          "content": "Using advanced components in React Native."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Charlie Brown",
+          "email": "charlie@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mastering Vue.js",
+      "instructor": "Samuel Johnson",
+      "description": "Advanced techniques for developing with Vue.js.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "/images/vue2.jpg",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with Vue.js"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Advanced Vue.js Concepts",
+          "content": "Understanding advanced concepts and patterns in Vue.js."
+        },
+        {
+          "week": 2,
+          "topic": "Vue.js State Management",
+          "content": "Using Vuex for state management in Vue.js applications."
+        }
+      ],
+      "students": [
+        {
+          "id": 106,
+          "name": "Clark Kent",
+          "email": "clark@example.com"
+        },
+        {
+          "id": 107,
+          "name": "Lois Lane",
+          "email": "lois@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Python for Data Science",
+      "instructor": "Robert Smith",
+      "description": "Learn Python and its application in data science.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "/images/python.jpg",
+      "duration": "12 weeks",
+      "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic programming knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Python",
+          "content": "Basic syntax and setting up Python environment."
+        },
+        {
+          "week": 2,
+          "topic": "Python for Data Analysis",
+          "content": "Using Python for data analysis with libraries like Pandas and NumPy."
+        }
+      ],
+      "students": [
+        {
+          "id": 108,
+          "name": "Peter Parker",
+          "email": "peter@example.com"
+        },
+        {
+          "id": 109,
+          "name": "Tony Stark",
+          "email": "tony@example.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Full-Stack JavaScript Development",
+      "instructor": "Laura Palmer",
+      "description": "Become a full-stack developer using JavaScript.",
+      "enrollmentStatus": "In Progress",
+      "thumbnail": "/images/js.jpg",
+      "duration": "14 weeks",
+      "schedule": "Mondays, Wednesdays, and Fridays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["JavaScript knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Full-Stack Development",
+          "content": "Understanding full-stack development and setting up your environment."
+        },
+        {
+          "week": 2,
+          "topic": "Frontend Development",
+          "content": "Building the frontend using HTML, CSS, and JavaScript frameworks."
+        }
+      ],
+      "students": [
+        {
+          "id": 110,
+          "name": "Steve Rogers",
+          "email": "steve@example.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Django for Web Development",
+      "instructor": "Nina Simone",
+      "description": "Develop robust web applications using Django.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "/images/django.jpg",
+      "duration": "10 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic Python knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Django",
+          "content": "Setting up Django and creating your first project."
+        },
+        {
+          "week": 2,
+          "topic": "Models and Databases",
+          "content": "Understanding Django models and how to use databases."
+        }
+      ],
+      "students": [
+        {
+          "id": 111,
+          "name": "Natasha Romanoff",
+          "email": "natasha@example.com"
+        },
+        {
+          "id": 112,
+          "name": "Wanda Maximoff",
+          "email": "wanda@example.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Java Spring Boot Essentials",
+      "instructor": "Michael Jordan",
+      "description": "Learn the essentials of developing applications with Java Spring Boot.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "/images/sb2.png",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic Java knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Spring Boot",
+          "content": "Setting up Spring Boot and creating your first application."
+        },
+        {
+          "week": 2,
+          "topic": "Spring Boot MVC",
+          "content": "Understanding Model-View-Controller (MVC) in Spring Boot."
+        }
+      ],
+      "students": [
+        {
+          "id": 113,
+          "name": "Bruce Banner",
+          "email": "bruce.banner@example.com"
+        },
+        {
+          "id": 114,
+          "name": "Stephen Strange",
+          "email": "stephen@example.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ruby on Rails for Beginners",
+      "instructor": "Sam wilson",
+      "description": "An introductory course on Ruby on Rails for web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "/images/ror2.png",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic programming knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Ruby on Rails",
+          "content": "Setting up Rails and creating your first web application."
+        },
+        {
+          "week": 2,
+          "topic": "Rails Models and Controllers",
+          "content": "Understanding models and controllers in Rails."
+        }
+      ],
+      "students": [
+        {
+          "id": 115,
+          "name": "Selina Kyle",
+          "email": "selina@example.com"
+        },
+        {
+          "id": 116,
+          "name": "Harvey Dent",
+          "email": "harvey@example.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Swift for iOS Development",
+      "instructor": "Lisa Black",
+      "description": "Learn to develop iOS applications using Swift.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "/images/swift.jpeg",
+      "duration": "10 weeks",
+      "schedule": "Wednesdays and Fridays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic programming knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Swift",
+          "content": "Basics of Swift and setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First iOS App",
+          "content": "Creating a simple iOS application using Swift."
+        }
+      ],
+      "students": [
+        {
+          "id": 117,
+          "name": "Diana Prince",
+          "email": "diana@example.com"
+        },
+        {
+          "id": 118,
+          "name": "Hal Jordan",
+          "email": "hal@example.com"
+        }
+      ]
+    }
+  ]
+}
